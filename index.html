@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Todo List</h2>
+      <div class="container">
+        <div class="input-area">
+          <input
+            type="text"
+            name="input-text"
+            id="input-text"
+            placeholder="Enter your new todo"
+          />
+          <i class="ri-todo-line icon-todo"></i>
+        </div>
+
+        <div class="input-lists">
+          <!-- todo list element from javascript -->
+        </div>
+        <div class="footer-list">
+          <p>You have <span class="pending"> </span> Pending Tasks</p>
+          <button class="clear-all">Clear All</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
